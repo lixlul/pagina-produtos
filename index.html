@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de produtos simples</title>
+    <link rel="stylesheet" href="/js/js/styles.css">
+</head>
+<body>
+    <main>
+        <!-- seção do produto -->
+        <section class="produto">
+            <!-- div onde vai ficar as imagens dos produtos -->
+        <div class="imagens-produtos">
+            <!-- imagem principal do produto -->
+        <img src="/js/js/img/roupa5.webp" alt="produto principal" class="imagem-principal" id="imagem-principal">
+        <!-- miniatura das imagens -->
+        <div class="miniatura">
+            <img src="/js/js/img/roupa2.jfif" alt="miniatura 1" class="miniatura" data-imagem="produto.png">
+            <img src="/js/js/img/roupa3.jfif" alt="miniatura 2" class="miniatura" data-imagem="produto.png">
+            <img src="/js/js/img/images4.jfif" alt="miniatura 3" class="miniatura" data-imagem="produtos.png">
+        </div>
+</div>
+<!-- div tem os detalhes dos produtos -->
+<div class="detalhes-produto">
+    <!-- nome do produto -->
+    <h2>Nome do Produto</h2>
+    <!-- descrição do produto -->
+    <p class="descricao">Essa é a descrição do nosso produto. Ele é de alta qualidade e atendera ás suas necessidades.</p>
+    <!-- preço -->
+    <p class="preco">R$ 99,99</p>
+    <!-- formulario para cor e tamanho pods produtos -->
+    <form class="opcoes-compra">
+        <!-- seleção do tamanho -->
+        <label for="tamanhos">tamanhos:</label>
+        <select id="tamanhos">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>GG</option>
+            <option>XGG</option>
+        </select>
+        <!-- seleção de cor -->
+        <label for="cor">Cores:</label>
+        <select id="cor">
+            <option>Vermelho</option>
+            <option>Azul</option>
+            <option>Preto</option>
+        </select>
+        <!-- botão de compra -->
+        <button type="submit">Comprar</button>
+    </form>
+</div>
+</section>
+<!-- comentario dos clientes -->
+<section class="comentarios">
+    <h3>Comentários dos nossas clientes</h3> 
+    <!-- Título da seção dos comentarios -->
+    <!-- ccomentaro 1 -->
+    <div class="comentario">
+        <!-- foto do cliente 1 -->
+        <img src="/js/js/img/pessoa 1.jfif" alt="foto de lee Mina" class="foto-usuario">
+        <!-- nome e comentario do usuario -->
+        <p><strong>Lee Mina:</strong> òtimos produtos, amei a loja!! recomendo muitoooo</p>
+    </div>
+     <!-- ccomentaro 2 -->
+     <div class="comentario">
+        <!-- foto do cliente 2 -->
+        <img src="/js/js/img/pessoa 2.jfif" alt="foto de Aiko" class="foto-usuario">
+        <!-- nome e comentario do usuario -->
+        <p><strong>Aiko:</strong>amei a loja!! recomendo muitoooo, roupas maravilindas, amei todas as atendentes</p>
+    </div>
+</section>
+</main>
+    <script src="/js/js/script.js"></script>
+</body>
+</html>
